@@ -8,7 +8,7 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 def open_link():
-    webbrowser.open('https://aistudio.google.com/app/apikey')
+    webbrowser.open('https://mrtg1b.vercel.app/projects/refix')
 
 def save_api_key():
     api_key = api_entry.get().strip()
@@ -76,7 +76,7 @@ save_btn.pack(pady=(0, 20))
 # Help link with modern styling
 link_label = ctk.CTkLabel(
     frame,
-    text="Need an API key? Click here to get one",
+    text="Don’t know how to get one? Click here",
     font=ctk.CTkFont(family="Segoe UI", size=10, underline=True),
     text_color=("#4A9EFF", "#4A9EFF"),
     cursor="hand2"
