@@ -20,7 +20,7 @@ RefiX is a professional, enterprise-grade AI-powered text enhancement tool that 
 ### Prerequisites
 
 - Python 3.8 or higher
-- Google Gemini API key ([Get one here](https://makersuite.google.com/app/apikey))
+- Google Gemini API key ([Get one here](https://aistudio.google.com/app/apikey))
 
 ### Installation
 
